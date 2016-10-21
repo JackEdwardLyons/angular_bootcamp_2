@@ -11,6 +11,7 @@
 
 ----------
 
+TO START: npm start
 
 # Overview
 This repo is designed to accompany the free [Angular 2 Fundamentals course](https://angularclass.com/courses). It is a step by step curriculum introducing you to Angular 2 by rebuilding [Google Keep](). All lessons are broken down into individual branches, with a start and solution branch for each lesson. We recommend taking the course which includes the videos and text descriptions for each lesson to maximize your learnings!

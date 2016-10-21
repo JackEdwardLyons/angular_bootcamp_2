@@ -1,7 +1,7 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Component } from '@angular/core';
-import { Main } from './containers';
+import { App } from '../app';
 
 @NgModule({
   imports: [ BrowserModule ],
@@ -11,11 +11,15 @@ import { Main } from './containers';
 
 
 @Component({
-  selector: 'app',
+  selector: 'main-container',
   template: `
     <div>
-      <main-container></main-container>
+      <main class="main">
+       <h3>
+         Content wil go here... 
+        </h3>
+      </main>
     </div>
   `
 })
-export class App {}
+export class Main {}
